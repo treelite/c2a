@@ -42,3 +42,5 @@ module.exports = function (file) {
 
     return res.join('\n');
 };
+
+module.exports.edpWebserver = require('./lib/adapter/edp-webserver');
