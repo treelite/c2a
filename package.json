@@ -9,5 +9,7 @@
       "email": "c.xinle@gmail.com"
     }
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "https://github.com/treelite/c2a.git",
+  "bugs": "https://github.com/treelite/c2a/issues"
 }
