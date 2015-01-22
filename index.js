@@ -10,7 +10,7 @@ var END_WRAPPER = [');', '});'];
  * 缩进
  *
  * @inner
- * @param {string} code
+ * @param {string} code 源代码
  * @param {number} num 缩进数量
  * @return {string}
  */
@@ -29,7 +29,7 @@ function indent(code, num) {
  * 删除前后多余的空行
  *
  * @inner
- * @param {string} str
+ * @param {string} str 多行文本
  * @return {string}
  */
 function trimLine(str) {
@@ -39,7 +39,7 @@ function trimLine(str) {
 /**
  * 判断是否是JSON数据
  *
- * @param {string} data
+ * @param {string} data 数据
  * @return {boolean}
  */
 function isJSON(data) {
@@ -57,7 +57,7 @@ function isJSON(data) {
  * 转化代码
  *
  * @public
- * @param {string} code
+ * @param {string} code 源码
  * @return {string}
  */
 module.exports = function (code) {
