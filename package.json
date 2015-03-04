@@ -1,6 +1,6 @@
 {
   "name": "c2a",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Transfer CMD to AMD",
   "main": "index.js",
   "maintainers": [
